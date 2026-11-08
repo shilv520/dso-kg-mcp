@@ -1,0 +1,6 @@
+# GitHub 语言统计修正：
+# kg_explorer.html 由 viz/build_explorer.py 生成（内联了 vis-network 库与全图
+# 1527 实体数据，2.5MB），不是手写源码，标记为 generated 后不计入语言条；
+# vis-network.min.js 是第三方压缩库，标记为 vendored（*.min.js 通常也会被自动识别）。
+viz/kg_explorer.html linguist-generated
+viz/vis-network.min.js linguist-vendored
