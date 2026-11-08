@@ -1,0 +1,18 @@
+# 密钥与本机个人配置（永不提交）
+.env
+.claude/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 数据产物：仅图谱 TTL 与报告入库；
+# 教材原文碎片、sidecar 库、LLM 缓存、嵌入模型权重不随仓库分发（版权+体积）
+data/*
+!data/dso_kg.ttl
+!data/shacl_report.txt
+!data/extraction_report.json
+*.sqlite
+*.onnx
+*.pdf

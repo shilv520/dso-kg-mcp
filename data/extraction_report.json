@@ -1,0 +1,53 @@
+{
+ "prompt_version": "v3",
+ "ran_at": "2026-11-07 01:22:41",
+ "units": 6,
+ "succeeded": 6,
+ "failed": 0,
+ "entities": 106,
+ "relations": 88,
+ "dropped_total": 30,
+ "drop_reasons": {
+  "domain_range_violation": 2,
+  "missing_required": 14,
+  "unresolved_endpoint": 14
+ },
+ "per_fragment": {
+  "holml1-ch10-s00-from-biological-to-artificial-neurons-p01": {
+   "e": 18,
+   "r": 11,
+   "dropped": 1,
+   "error": null
+  },
+  "holml1-ch10-s01-training-an-mlp-with-tensorflow-s-high-level-api": {
+   "e": 21,
+   "r": 20,
+   "dropped": 0,
+   "error": null
+  },
+  "holml1-ch10-s00-from-biological-to-artificial-neurons-p02": {
+   "e": 18,
+   "r": 17,
+   "dropped": 1,
+   "error": null
+  },
+  "holml1-ch10-s02-training-a-dnn-using-plain-tensorflow": {
+   "e": 14,
+   "r": 15,
+   "dropped": 28,
+   "error": null
+  },
+  "holml1-ch10-s04-exercises": {
+   "e": 17,
+   "r": 15,
+   "dropped": 0,
+   "error": null
+  },
+  "holml1-ch10-s03-fine-tuning-neural-network-hyperparameters": {
+   "e": 18,
+   "r": 10,
+   "dropped": 0,
+   "error": null
+  }
+ }
+}
